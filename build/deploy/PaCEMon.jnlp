@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PaCEMon.jnlp">
+  <information>
+    <title>PaCEMon</title>
+    <vendor>MayankCOE</vendor>
+    <description>PaCEMon</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="http://localhost:8080/PaCEMon.jar" size="6477" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="200" height="180" main-class="application.Main"  name="PaCEMon" />
+  <update check="background"/>
+</jnlp>

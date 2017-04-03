@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'PaCEMon.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUGFDRU1vbi5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5QYUNFTW9uPC90aXRsZT4NCiAgICA8dmVuZG9yPk1heWFua0NPRTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5QYUNFTW9uPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJQYUNFTW9uLmphciIgc2l6ZT0iNjQ3NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCjxzZWN1cml0eT4NCiAgPGFsbC1wZXJtaXNzaW9ucy8+DQo8L3NlY3VyaXR5Pg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE4MCIgbWFpbi1jbGFzcz0iYXBwbGljYXRpb24uTWFpbiIgIG5hbWU9IlBhQ0VNb24iIC8+DQogIDx1cGRhdGUgY2hlY2s9ImJhY2tncm91bmQiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedfxApplication() {
+        dtjava.embed(
+            {
+                id : 'fxApplication',
+                url : 'PaCEMon.jnlp',
+                placeholder : 'PaCEMON_Mayank_COE',
+                width : '200',
+                height : '180',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUGFDRU1vbi5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5QYUNFTW9uPC90aXRsZT4NCiAgICA8dmVuZG9yPk1heWFua0NPRTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5QYUNFTW9uPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJQYUNFTW9uLmphciIgc2l6ZT0iNjQ3NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCjxzZWN1cml0eT4NCiAgPGFsbC1wZXJtaXNzaW9ucy8+DQo8L3NlY3VyaXR5Pg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE4MCIgbWFpbi1jbGFzcz0iYXBwbGljYXRpb24uTWFpbiIgIG5hbWU9IlBhQ0VNb24iIC8+DQogIDx1cGRhdGUgY2hlY2s9ImJhY2tncm91bmQiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedfxApplication);
+</script>
+
+</head><body>
+<h2>Test page for <b>PaCEMon</b></h2>
+  <b>Webstart:</b> <a href='PaCEMon.jnlp' onclick="return launchApplication('PaCEMon.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='PaCEMON_Mayank_COE'></div>
+</body></html>
