@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="PaCEMon.jnlp">
+	 <information>
+    <title>PaCEMon</title>
+    <vendor>MayankCOE</vendor>
+    <description>PaCEMon</description>
+    <offline-allowed/>
+  </information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.8+" />
+		<jar href="PaCEMon.jar" />
+	</resources>
+	<application-desc main-class="application.Main" />
+</jnlp>
