@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://github.com/mayank3636/JavaFXRepo/blob/master/src/Resources"  href="PaCEMon.jnlp?raw=true">
+	 <information>
+    <title>PaCEMon</title>
+    <vendor>MayankCOE</vendor>
+    <description>PaCEMon</description>
+    <offline-allowed/>
+  </information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.8+" />
+		<jar href="PaCEMon.jar?raw=true" />
+	</resources>
+	<application-desc main-class="application.Main" />
+</jnlp>
